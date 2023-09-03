@@ -1,0 +1,299 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 554,
+      "max": [
+        476.9283142089844,
+        74.84432220458984,
+        476.6744384765625
+      ],
+      "min": [
+        -476.5911865234375,
+        -16.010452270507813,
+        -473.7080078125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6648,
+      "componentType": 5126,
+      "count": 554,
+      "max": [
+        0.9404992461204529,
+        0.9999852776527405,
+        0.9422453045845032
+      ],
+      "min": [
+        -0.9309635162353516,
+        -1.0,
+        -0.9419591426849365
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 554,
+      "max": [
+        0.9613679051399231,
+        0.9478247165679932,
+        0.9907811880111694,
+        1.0
+      ],
+      "min": [
+        -0.7944014072418213,
+        -0.9435267448425293,
+        -0.9999930262565613,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 554,
+      "max": [
+        0.9367389678955078,
+        0.9900000095367432
+      ],
+      "min": [
+        0.009999999776482582,
+        0.09521699696779251
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4432,
+      "componentType": 5126,
+      "count": 554,
+      "max": [
+        0.9367389678955078,
+        0.9900000095367432
+      ],
+      "min": [
+        0.009999999776482582,
+        0.09521699696779251
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8864,
+      "componentType": 5126,
+      "count": 554,
+      "max": [
+        0.9367389678955078,
+        0.9900000095367432
+      ],
+      "min": [
+        0.009999999776482582,
+        0.09521699696779251
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2694,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "lyningsknallis (https://sketchfab.com/lyningsknallis)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/underwater-sand-bottom-5927ed7b27d94ab3b100813c11a3ca85",
+      "title": "Underwater sand bottom"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 10776,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13296,
+      "byteOffset": 10776,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13296,
+      "byteOffset": 24072,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8864,
+      "byteOffset": 37368,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 46232,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Default1_baseColor.png"
+    },
+    {
+      "uri": "textures/Default1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Default1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Default1",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.6086051487957108
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ground_Default1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ground.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "ground"
+    },
+    {
+      "mesh": 0,
+      "name": "ground_Default1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

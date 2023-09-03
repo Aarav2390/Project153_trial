@@ -1,0 +1,11 @@
+Model Information:
+* title:	Underwater sand bottom
+* source:	https://sketchfab.com/3d-models/underwater-sand-bottom-5927ed7b27d94ab3b100813c11a3ca85
+* author:	lyningsknallis (https://sketchfab.com/lyningsknallis)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Underwater sand bottom" (https://sketchfab.com/3d-models/underwater-sand-bottom-5927ed7b27d94ab3b100813c11a3ca85) by lyningsknallis (https://sketchfab.com/lyningsknallis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

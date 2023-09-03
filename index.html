@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Underwater Treasures🪙🐟</title>
+        <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <!--camera-->
+            <a-entity id="camera" look-controls camera position="0 2 0"></a-entity>
+
+            <a-sky src="./assets/background.jpg"></a-sky>
+            <a-assets>
+                <a-asset-item id="diverGLTF" src="./assets/diver/scene.gltf"></a-asset-item>
+                <a-asset-item id="terrainGLTF" src="./assets/underwater_scene/scene.gltf"></a-asset-item>
+            </a-assets>
+
+            <!--code for background position-->
+            <a-entity 
+            id="terrain"
+            gltf-model="#terrainGLTF"
+            position="0 -11 -60"
+            scale="0.2 0.1 0.2"
+            ></a-entity>
+
+            <!--code for diver-->
+            <a-entity 
+            id="diver"
+            gltf-model="#diverGLTF"
+            position="-0.5 1 -1.5"
+            scale="0.3 0.3 0.3"
+            rotation="0 180 0"
+            diver-controls
+            ></a-entity>
+
+
+            
+        </a-scene>
+
+        <script>
+            // Disable WASD controls for the camera
+            const camera = document.querySelector('#camera');
+            camera.removeAttribute('wasd-controls');
+          </script>
+    </body>
+</html>
